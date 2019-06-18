@@ -1,17 +1,13 @@
 body {
     background-color: lightslategray;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+
 }
 
 main {
     flex: 1 0 auto;
-}
-      
+}      
 
 .nav-wrapper, .page-footer {
-    margin-top: 5px;
     background: darkgrey;
 }
 
@@ -26,3 +22,8 @@ main {
 .clear-scrap:visited {
     background: red;
 }
+
+#index {
+    margin: 50px 2px 2px 5px
+}
+
